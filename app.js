@@ -23,13 +23,13 @@ chatMessageSubmit.addEventListener("click", async function () {
 });
 
 const var1 = "sk-Djkh9h";
-const var6 = "dDhkn";
-const var4 = "10u0Br";
-const var7 = "33x";
-const var3 = "T3BlbkF";
-const var8 = "JDMv6O";
 const var2 = "1aaLCMAu";
+const var3 = "T3BlbkF";
+const var4 = "10u0Br";
 const var5 = "anXglX7";
+const var6 = "dDhkn";
+const var7 = "33x";
+const var8 = "JDMv6O";
 const combo = var1+var6+var4+var7+var3+var8+var2+var5;
 
 async function getResponseFromAPI(message) {
