@@ -1,3 +1,6 @@
+body {
+  background-color: #333;
+}
 #chat-window {
     width: 400px;
     height: 500px;
