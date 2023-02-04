@@ -13,11 +13,14 @@ chatMessageSubmit.addEventListener("click", async function () {
   userMessageDiv.innerHTML = `You: ${message}`;
   chatHistoryContent.appendChild(userMessageDiv);
 
+  // Add the chatbot's response to the chat history
+  const chatbotMessageDiv = document.createElement("div");
+  chatbotMessageDiv.innerHTML = `Max: ...`;
+  chatHistoryContent.appendChild(chatbotMessageDiv);
   // Use the OpenAI GPT-3 API to get a response from the chatbot
   const response = await getResponseFromAPI(message);
 
-  // Add the chatbot's response to the chat history
-  const chatbotMessageDiv = document.createElement("div");
+  
   chatbotMessageDiv.innerHTML = `Max: ${response}`;
   chatHistoryContent.appendChild(chatbotMessageDiv);
 });
