@@ -9,8 +9,8 @@ var len = voiceLines.length;
 
 // Opening message
 const chatbotMessageDiv = document.createElement("div");
-chatbotMessageDiv.innerHTML = `<b>Max:</b> Hello! I am AI Max, please ask me any questions you have
-    about my (Max's) work experience, education, etc. Send any questions/concerns to mrivett@ucsd.edu.`;
+chatbotMessageDiv.innerHTML = `<b>Max:</b> Hello! I am AI Max, feel free to ask me any questions you have
+    about my (Max's)life - but mainly work experience, education, etc. Send any questions/concerns to mrivett@ucsd.edu.`;
 chatHistoryContent.appendChild(chatbotMessageDiv);
 
 
